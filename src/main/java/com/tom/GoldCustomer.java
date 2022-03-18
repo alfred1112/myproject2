@@ -1,18 +1,17 @@
 package com.tom;
 
-public class SilverCustomer extends Customer{
+public class GoldCustomer extends Customer {
     String name;
     int price;
 
-    public SilverCustomer(String name, int price) {
+    public GoldCustomer(String name, int price) {
         super(name,price);
     }
     @Override
     public void print(){
-        int cut = (price / 1000) * 100;
+        int cut = (price / 1000) * 200;
         int sum = price - cut;
-        int add = (price / 1000) * 100;
+        int add = (price / 1000) * 200;
         System.out.println(name + "\t" + price + "\t" + sum +"("+ add+")");
     }
 }
-

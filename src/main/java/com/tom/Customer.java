@@ -8,7 +8,7 @@ public class Customer  {
             this.price = price;
         }
 
-    public void print(){
+        public void print(){
         int cut = (price/1000)*100;
         int sum = price - cut;
         System.out.println(name+"\t"+price+"\t"+sum);
