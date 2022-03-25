@@ -1,6 +1,4 @@
-package com.tom;
-
-import java.util.Scanner;
+package com.tom.sales;
 
 public class money {
     public static void main(String[] args) {

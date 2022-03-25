@@ -1,10 +1,11 @@
-package com.tom;
+package com.tom.score;
 
 public class student {
     String name ;
     int english;
     int math;
     public student(String name){
+
         this.name = name;
     }
     public student(String name ,int english,int math){

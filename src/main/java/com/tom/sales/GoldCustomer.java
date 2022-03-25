@@ -1,7 +1,8 @@
-package com.tom;
+package com.tom.sales;
 
 public class GoldCustomer extends SilverCustomer {
     public GoldCustomer(String name, int price) {
+
         super(name,price);
     }
     @Override
