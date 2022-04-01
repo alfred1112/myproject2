@@ -10,6 +10,7 @@ public class DiscountCustomer extends Customer{
     }
     @Override
     public void print(){
+
         System.out.println(name+"\t"+price+"\t"+sum());
     }
 }
