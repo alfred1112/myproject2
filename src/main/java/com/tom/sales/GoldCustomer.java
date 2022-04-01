@@ -2,8 +2,8 @@ package com.tom.sales;
 
 public class GoldCustomer extends SilverCustomer {
     public GoldCustomer(String name, int price) {
-
         super(name,price);
+        off = 0.2f;
     }
     @Override
     public void print(){
