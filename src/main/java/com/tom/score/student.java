@@ -1,9 +1,10 @@
 package com.tom.score;
 
+//修飾字(子) Modifier public/defoult/private/protected
 public class student implements Printable{
-    String name ;
-    int english;
-    int math;
+    protected String name ;
+    protected int english;
+    protected int math;
     public student(String name){
 
         this.name = name;
@@ -20,6 +21,8 @@ public class student implements Printable{
         //english = -1;
         //math = -1;
     }
+
+
     @Override
     public void print() {
         System.out.print(name+"\t"+english+"\t"+math+"\t"+getAverage());

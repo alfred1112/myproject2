@@ -1,5 +1,6 @@
 package com.tom.ticket;
 
+
 public class StudentTicket extends Ticket {
     float off = 0.2f;
     public StudentTicket(Station start ,Station destination){
