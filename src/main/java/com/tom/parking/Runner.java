@@ -27,6 +27,20 @@ public class Runner {
             System.out.println(mins);
             int fee = 30*(mins/60);
             System.out.println("Fee:"+fee);
+
+
+            //3:14=> NTD$90 , 3:15 => NTD$120
+            //3:15~3:30 => NTD$105
+            int a = (int)(d.getTime()/1000/60)+15;//3:14=> NTD$90
+            int b = (int)(d2.getTime()/1000/60);
+            int pay ;
+            int c= ((b-a)/60);
+            if(c>=1){
+                pay=30*c;
+                System.out.println(pay);
+            }
+
+
         }catch (Exception e){
             System.out.println("exit wrong format");
         }
