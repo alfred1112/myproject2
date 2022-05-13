@@ -35,8 +35,8 @@ public class Runner {
             int b = (int)(d2.getTime()/1000/60);
             int pay ;
             int c= ((b-a)/60);
-            if(c>=1){
-                pay=30*c;
+            if(c>=1){              //3:15 => NTD$120
+                pay=30*(c+1);
                 System.out.println(pay);
             }
 
