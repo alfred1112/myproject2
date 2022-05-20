@@ -13,11 +13,16 @@ public class MyWin {
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         //add Component
         JButton button = new JButton("OK");
-        //layout
+        MyActionListener listener = new MyActionListener();
+        button.addActionListener(listener);
+        //Layout
 //        frame.setLayout(new BorderLayout());
         frame.setLayout(new FlowLayout());   //(流水式)
         frame.add(button);
-        frame.add(new JButton("Testing"));
+//        frame.add(new JButton("Testing"));
+
+
+
         frame.setVisible(true);
         System.out.println("END?");
     }
