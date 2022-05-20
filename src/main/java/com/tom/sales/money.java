@@ -24,3 +24,5 @@ public class money {
 // 金級會員 滿千送兩百 + 兩百元還元金
 // 折扣會員 全額10%off (9折)
 // 白金級會員 30%off+20%point (7折+20%還元金)
+
+// Graphical User Interface,GUI
