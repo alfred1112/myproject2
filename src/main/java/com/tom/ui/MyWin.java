@@ -2,6 +2,8 @@ package com.tom.ui;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MyWin {
     public static void main(String[] args) {
@@ -13,8 +15,17 @@ public class MyWin {
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         //add Component
         JButton button = new JButton("OK");
-        MyActionListener listener = new MyActionListener();
-        button.addActionListener(listener);
+        //匿名類別, Anonymous class
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                System.out.println("Hello!");
+            }
+        });
+
+
+//        MyActionListener listener = new MyActionListener();
+//        button.addActionListener(listener);
         //Layout
 //        frame.setLayout(new BorderLayout());
         frame.setLayout(new FlowLayout());   //(流水式)
