@@ -22,8 +22,6 @@ public class MyWin {
                 System.out.println("Hello!");
             }
         });
-
-
 //        MyActionListener listener = new MyActionListener();
 //        button.addActionListener(listener);
         //Layout
