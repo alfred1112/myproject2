@@ -31,7 +31,6 @@ public class MyWin {
 //        frame.add(new JButton("Testing"));
 
 
-
         frame.setVisible(true);
         System.out.println("END?");
     }
